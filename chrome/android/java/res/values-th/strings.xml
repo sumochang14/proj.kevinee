@@ -8,7 +8,7 @@
     <string name="main_menu_ads_and_trackers_blocked" tools:ignore="PluralsCandidate">"%1$d ads &amp; trackers blocked"</string>
     <string name="main_menu_ads_blocked_since">"Since %1$s"</string>
 
-    <string name="main_menu_adblock">Hide annoying ads</string>
+    <string name="main_menu_adblock">ซ่อนโฆษณาที่น่ารำคาญ</string>
 
     <string name="main_menu_clear_data">Clear data</string>
 
@@ -28,8 +28,8 @@
 
     <string name="main_menu_developer_tools">Developer tools</string>
 
-    <string name="appearance_preferences">Appearance</string>
-    <string name="appearance_preferences_themes">Themes</string>
+    <string name="appearance_preferences">ลักษณะที่ปรากฏ</string>
+    <string name="appearance_preferences_themes">ชุดรูปแบบ</string>
 
     <string name="accessibility_keep_toolbar_visible_title">Toolbar always on screen</string>
     <string name="accessibility_keep_toolbar_visible_summary">Keep toolbar always on screen while scrolling</string>
@@ -43,12 +43,12 @@
     <string name="accessibility_preferences_open_in_external_application_title">Prefer native applications (enable external applications)</string>
     <string name="accessibility_preferences_open_in_external_application_summary">Prefer opening links using native or external applications (Maps, YouTube, Vimeo)</string>
 
-    <string name="accessibility_preferences_nightmode_grayscale_title">Grayscale night mode</string>
+    <string name="accessibility_preferences_nightmode_grayscale_title">โหมดกลางคืนไล่ระดับสีเทา</string>
     <string name="accessibility_preferences_nightmode_grayscale_summary">Prefer grayscale version of night mode</string>
 
     <string name="accessibility_preferences_night_scale">Night mode contrast (gray: 97, default: 99, black: 100)</string>
 
-    <string name="accessibility_preferences_enable_bottom_toolbar_title">แถบเครื่องมือล่าง</string>
+    <string name="accessibility_preferences_enable_bottom_toolbar_title">Bottom toolbar</string>
     <string name="accessibility_preferences_enable_bottom_toolbar_summary">Move address bar to the bottom</string>
 
     <string name="accessibility_preferences_enable_overscroll_button_title">Hand button (bottom toolbar only)</string>
@@ -57,7 +57,7 @@
     <string name="accessibility_preferences_keep_address_bar_content_title">Do not delete address bar content</string>
     <string name="accessibility_preferences_keep_address_bar_content_summary">Keep content when focusing the address bar</string>
 
-    <string name="accessibility_preferences_enable_side_swipe_title">เลื่อนจากขอบ</string>
+    <string name="accessibility_preferences_enable_side_swipe_title">Edge swipe</string>
     <string name="accessibility_preferences_enable_side_swipe_summary">Enable swipe-left and swipe-right gestures on the edges of the page to navigate history</string>
 
     <string name="accessibility_preferences_enable_up_swipe_title">Swipe-up to open tab switcher</string>
@@ -69,16 +69,49 @@
     <string name="contextual_menu_open_in_external_application">Open in external application</string>
 
     <string name="preferences_restart_is_needed">Your changes will take effect on restart of Kiwi</string>
-    <string name="preferences_restart_now">RESTART NOW</string>
-    <string name="preferences_restart_later">Later</string>
+    <string name="preferences_restart_now">เริ่มใหม่เดี๋ยวนี้</string>
+    <string name="preferences_restart_later">ภายหลัง</string>
 
     <string name="preferences_autofill">เติมอัตโนมัติ</string>
-    <string name="preferences_developer_options">Developer options</string>
+    <string name="preferences_developer_options">ตัวเลือกนักพัฒนา</string>
     <string name="preferences_privacy">ความเป็นส่วนตัว</string>
-    <string name="preferences_toolbar">Toolbar</string>
+    <string name="preferences_toolbar">แถบเครื่องมือ</string>
 
     <string name="preferences_translator">Translator</string>
     <string name="preferences_tabswitcher">Tab switcher</string>
     <string name="preferences_nightmode">Night mode</string>
 
-    <string name="download_preferences_enable_external_download_manager_title">Ex
+    <string name="download_preferences_enable_external_download_manager_title">External download manager</string>
+    <string name="download_preferences_enable_external_download_manager_summary">Use external download manager (ex: Advanced Download Manager)</string>
+
+    <string name="privacy_preferences_accept_cookie_consent_title">Accept cookies</string>
+    <string name="privacy_preferences_accept_cookie_consent_summary">Accept cookies when asked by a website</string>
+
+    <string name="privacy_preferences_avoid_amp_websites_title">นำ AMP ออก</string>
+    <string name="privacy_preferences_avoid_amp_websites_summary">Prefer direct websites instead of AMP version</string>
+
+    <string name="privacy_preferences_hide_incognito_window_content_title">Protect incognito windows</string>
+    <string name="privacy_preferences_hide_incognito_window_content_summary">Hide content and prevent screenshots in incognito mode</string>
+
+    <string name="privacy_preferences_close_tabs_on_exit_title">ปิดแถบทั้งหมด</string>
+    <string name="privacy_preferences_close_tabs_on_exit_summary">Close all tabs between two browsing sessions</string>
+
+    <string name="privacy_preferences_close_browser_after_last_tab_is_closed_title">Close browser when no tabs are open</string>
+    <string name="privacy_preferences_close_browser_after_last_tab_is_closed_summary">Close the browser after the last tab has been closed</string>
+
+    <string name="search_engines_preferences_howto_add">Recently visited\nTo add a new Search Engine, go to the Search Engine (ex: Bing.com) and make a Search. After few seconds, the Search Engine will be added to the list.</string>
+
+    <string name="suggest_adblock">Click here to toggle ad and tracking protection</string>
+
+    <string name="website_settings_add_site_description_ads">Allow displaying ads for a specific site</string>
+
+    <string name="website_settings_desktop_mode">Desktop mode by default</string>
+    <string name="website_settings_desktop_mode_enabled">Prefer desktop version of websites</string>
+    <string name="website_settings_desktop_mode_disabled">Prefer mobile-optimized version of websites</string>
+
+    <string name="main_menu_mobile_site">Mobile site</string>
+    <string name="data_reduction_description_lite_mode_kiwi">When Lite mode is activated, Kiwi Browser will try to save data by letting the websites know that they should serve a lighter version of the website. In this mode, Kiwi may disable certain pictures or elements on the page to speedup loading. The traffic goes directly to the website without intermediaries. To save the maximum amount of data, ticking "Hide annoying ads" in the main menu is recommended. Blocked ads do not count toward the data saving counter.</string>
+
+    <string name="accessibility_preferences_cws_mobile_friendly_title">Optimize Extensions Web Store</string>
+    <string name="accessibility_preferences_cws_mobile_friendly_summary">Improve the appearance of Extensions Web Store</string>
+</resources>
