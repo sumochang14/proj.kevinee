@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation">
 
-    <string name="main_menu_ads_and_trackers_blocked" tools:ignore="PluralsCandidate">"%1$d ads &amp; trackers blocked"</string>
-    <string name="main_menu_ads_blocked_since">"Since %1$s"</string>
+    <string name="main_menu_ads_and_trackers_blocked" tools:ignore="PluralsCandidate">"ปิดกั้นแล้ว %1$d โฆษณา &amp; ตัวติดตาม"</string>
+    <string name="main_menu_ads_blocked_since">"ตั้งแต่ %1$s"</string>
 
     <string name="main_menu_adblock">ซ่อนโฆษณาที่น่ารำคาญ</string>
 
@@ -31,10 +31,10 @@
     <string name="appearance_preferences">ลักษณะที่ปรากฏ</string>
     <string name="appearance_preferences_themes">ชุดรูปแบบ</string>
 
-    <string name="accessibility_keep_toolbar_visible_title">Toolbar always on screen</string>
+    <string name="accessibility_keep_toolbar_visible_title">แสดงแถบเครื่องมือบนหน้าจอตลอดเวลา</string>
     <string name="accessibility_keep_toolbar_visible_summary">Keep toolbar always on screen while scrolling</string>
 
-    <string name="accessibility_preferences_text_rewrap_title">Text rewrap / reflow</string>
+    <string name="accessibility_preferences_text_rewrap_title">การตัด/รวบข้อความ</string>
     <string name="accessibility_preferences_text_rewrap_summary">ทำให้ข้อความพอดีระหว่างการขยาย</string>
 
     <string name="accessibility_preferences_holding_tabswitcher_opens_contextual_menu_title">Tab switcher long click menu</string>
@@ -46,7 +46,7 @@
     <string name="accessibility_preferences_nightmode_grayscale_title">โหมดกลางคืนไล่ระดับสีเทา</string>
     <string name="accessibility_preferences_nightmode_grayscale_summary">Prefer grayscale version of night mode</string>
 
-    <string name="accessibility_preferences_night_scale">Night mode contrast (gray: 97, default: 99, black: 100)</string>
+    <string name="accessibility_preferences_night_scale">Night mode contrast (สีเทา: 97, ค่าเริ่มต้น: 99, สีดำ: 100)</string>
 
     <string name="accessibility_preferences_enable_bottom_toolbar_title">แถบเครื่องมือด้านล่าง</string>
     <string name="accessibility_preferences_enable_bottom_toolbar_summary">ย้ายแถบที่อยู่ไปด้านล่าง</string>
@@ -82,7 +82,7 @@
     <string name="preferences_nightmode">โหมดกลางคืน</string>
 
     <string name="download_preferences_enable_external_download_manager_title">ตัวจัดการดาวน์โหลดภายนอก</string>
-    <string name="download_preferences_enable_external_download_manager_summary">Use external download manager (ex: Advanced Download Manager)</string>
+    <string name="download_preferences_enable_external_download_manager_summary">ใช้ตัวจัดการดาวน์โหลดภายนอก (ตัวอย่าง: Advanced Download Manager)</string>
 
     <string name="privacy_preferences_accept_cookie_consent_title">ยอมรับคุกกี้</string>
     <string name="privacy_preferences_accept_cookie_consent_summary">ยอมรับคุกกี้เมื่อเว็บไซต์ร้องขอ</string>
